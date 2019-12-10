@@ -1,0 +1,9 @@
+read -p 'From: ' from
+read -p 'To: ' to
+
+mkdir -p "day${to}/day${to}_a"
+cp "day${from}/day${from}_b/day${from}_b.go" "day${to}/day${to}_a/day${to}_a.go"
+git add "day${to}/day${to}_a/day${to}_a.go"
+
+echo -ne "" > "day${to}/input.txt"
+git add "day${to}/input.txt"

@@ -1,0 +1,4 @@
+read -p 'Day: ' from
+
+mkdir "day${from}/day${from}_b"
+cp "day${from}/day${from}_a/day${from}_a.go" "day${from}/day${from}_b/day${from}_b.go"
