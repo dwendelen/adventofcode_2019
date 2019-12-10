@@ -72,3 +72,11 @@ func removeDelimiter(item string, delimiter byte) string {
 		return item
 	}
 }
+
+func Abs(a int) int {
+	if a < 0 {
+		return -a
+	} else {
+		return a
+	}
+}
