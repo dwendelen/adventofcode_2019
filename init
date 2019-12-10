@@ -1,0 +1,8 @@
+read -p 'Day: ' day
+
+mkdir -p "day${day}/day${day}_a"
+cp template.go "day${day}/day${day}_a/day${day}_a.go"
+git add "day${day}/day${day}_a/day${day}_a.go"
+
+echo -ne "" > "day${day}/input.txt"
+git add "day${day}/input.txt"
