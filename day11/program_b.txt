@@ -1,0 +1,61 @@
+start:
+ output WHITE, RIGHT                // >
+
+ printBits(932700598932)
+ printBits(937150489384)
+
+ output WHITE, RIGHT                // v
+ output WHITE, LEFT , WHITE, RIGHT  // > v
+ output WHITE, RIGHT, WHITE, LEFT   // v <
+ output WHITE, RIGHT                // <
+
+ printBits(46325083227)
+ printBits(3263269927)
+
+ output WHITE, LEFT                 // v
+ output WHITE, LEFT                 // >
+
+ printBits(988225102184)
+ printBits(868410356500)
+ halt
+
+
+// Pattern:
+// v >
+// > ^
+printAndMoveOn(numberToPrint):
+ static counter
+ static directions = [RIGHT, LEFT, LEFT, RIGHT]
+
+ output numberToPrint
+ output directions[counter]
+ counter++
+ if counter == 4 {
+    counter = 0
+ }
+ return
+
+printBits(bits):
+ if bits < 0 {
+    bits = 0
+ }
+ printBits_rec(1, 40, bits)
+ return
+
+printBits_rec(powerOfTwo, nbOfBitsTodo, bitsTodo):
+ if nbOfBitsTodo < 1 && bitsTodo < powerOfTwo {
+    return bitsTodo
+ }
+
+ bitsTodo = printBits_rec(2 * powerOfTwo, nbOfBitsTodo - 1, bitsTodo)
+
+ bitValue = 1
+ if bitsTodo < powerOfTwo {
+    bitValue = 0
+ }
+ powerOfTwo = powerOfTwo * bitValue
+ if nbOfBitsTodo > 0 {
+    printAndMoveOn(bitValue)
+ }
+
+ return bitsTodo - powerOfTwo
