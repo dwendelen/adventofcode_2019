@@ -80,3 +80,19 @@ func Abs(a int) int {
 		return a
 	}
 }
+
+func Min(a int64, b int64) int64 {
+	if a < b {
+		return a
+	} else {
+		return b
+	}
+}
+
+func Max(a int64, b int64) int64 {
+	if a > b {
+		return a
+	} else {
+		return b
+	}
+}

@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	program := load("day09/input.txt")
+	program := load("day11/input.txt")
 	//program[6] = program[6] + 5
 	printProg(program)
 }
