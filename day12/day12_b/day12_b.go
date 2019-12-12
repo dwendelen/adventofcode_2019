@@ -1,6 +1,7 @@
 package main
 
 import (
+	"../../util"
 	"fmt"
 	"log"
 )
@@ -18,23 +19,8 @@ func main() {
 		fmt.Println(systemIdx, skip, cycles[systemIdx])
 	}
 
-	res := lcm(lcm(cycles[0], cycles[1]), cycles[2])
+	res := util.Lcm(util.Lcm(cycles[0], cycles[1]), cycles[2])
 	fmt.Println(res)
-}
-
-func lcm(a int64, b int64) int64 {
-	i := a
-	j := b
-
-	for {
-		if i == j {
-			return i
-		} else if i < j {
-			i += a
-		} else {
-			j += b
-		}
-	}
 }
 
 func example() [][]*miniMoon {

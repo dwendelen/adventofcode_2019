@@ -104,3 +104,21 @@ func Max(a int64, b int64) int64 {
 		return b
 	}
 }
+
+func Lcm(a int64, b int64) int64 {
+	return (a / Gcd(a, b)) * b
+}
+
+func Gcd(a int64, b int64) int64 {
+	for {
+		if a == b {
+			return a
+		}
+
+		if a > b {
+			a = a - b
+		} else {
+			b = b - a
+		}
+	}
+}
