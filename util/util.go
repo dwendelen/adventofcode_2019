@@ -122,3 +122,7 @@ func Gcd(a int64, b int64) int64 {
 		}
 	}
 }
+
+func Ceil64(a int64, b int64) int64 {
+	return (a + b - 1) / b
+}
