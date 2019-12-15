@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-	program := load("day13/input.txt")
+	program := load("day15/input.txt")
 
-	printProg(program, []int{393}, []int{379, 639})
+	printProg(program, []int{}, []int{255})
 }
 
 func load(file string) []int {
