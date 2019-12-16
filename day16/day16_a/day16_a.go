@@ -1,0 +1,55 @@
+package main
+
+import (
+	"../../util"
+	"fmt"
+)
+
+const (
+	EXAMPLE1 = "80871224585914546619083218645595"
+	EXAMPLE2 = "19617804207202209144916044189917"
+	EXAMPLE3 = "69317163492948606335995924319873"
+	INPUT    = "59708372326282850478374632294363143285591907230244898069506559289353324363446827480040836943068215774680673708005813752468017892971245448103168634442773462686566173338029941559688604621181240586891859988614902179556407022792661948523370366667688937217081165148397649462617248164167011250975576380324668693910824497627133242485090976104918375531998433324622853428842410855024093891994449937031688743195134239353469076295752542683739823044981442437538627404276327027998857400463920633633578266795454389967583600019852126383407785643022367809199144154166725123539386550399024919155708875622641704428963905767166129198009532884347151391845112189952083025"
+)
+
+func main() {
+	vector := loadVector(INPUT)
+	size := len(vector)
+	newVector := make([]int64, size)
+	matrix := loadMatrix(size)
+
+	for i := 0; i < 100; i++ {
+		for nvi := 0; nvi < size; nvi++ {
+			sum := int64(0)
+			row := matrix[nvi]
+			for j := 0; j < size; j++ {
+				sum += row[j] * vector[j]
+			}
+			newVector[nvi] = util.Abs64(sum % 10)
+		}
+		vector = newVector
+	}
+	fmt.Println(vector[:8])
+}
+
+func loadVector(asString string) []int64 {
+	res := make([]int64, len(asString))
+	for i, s := range asString {
+		res[i] = int64(s - '0')
+	}
+	return res
+}
+
+var basePattern = [...]int64{0, 1, 0, -1}
+
+func loadMatrix(size int) [][]int64 {
+	matrix := make([][]int64, size)
+	for i := 0; i < size; i++ {
+		row := make([]int64, size)
+		for j := 0; j < size; j++ {
+			row[j] = basePattern[((j+1)/(i+1))%4]
+		}
+		matrix[i] = row
+	}
+	return matrix
+}
