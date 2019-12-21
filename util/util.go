@@ -73,6 +73,15 @@ func removeDelimiter(item string, delimiter byte) string {
 	}
 }
 
+func ReadAllLines(file string) []string {
+	res := make([]string, 0)
+	ReadLines(file, func(in string) error {
+		res = append(res, in)
+		return nil
+	})
+	return res
+}
+
 func Abs(a int) int {
 	if a < 0 {
 		return -a
