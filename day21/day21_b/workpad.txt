@@ -1,0 +1,58 @@
+ABCDEFGHI
+***#***#*
+***##***#
+
+DH | DEI
+D(H | EI)
+
+OR E J
+AND I J
+OR H J
+AND D J
+RUN
+
+#####.#.####..###
+ABCDEFGHI
+
+ABCDEFGHI
+***#***#*
+***##***#
+***###***
+
+DH | DEI | DEF
+D(H | EI | EF)
+D(H | E (I | F))
+
+OR I J
+OR F J
+AND E J
+OR H J
+AND D J
+RUN
+
+DO JUMP
+ABCDEFGHI
+***#***#*
+***##***#
+***###***
+
+DO NOT JUMP
+ABCD
+####*******
+
+(DH | DEI | DEF) !(ABCD)
+D(H | EI | EF)!(ABCD)
+D(H | E (I | F))!(ABCD)
+
+OR I J
+OR F J
+AND E J
+OR H J
+AND D J
+OR A T
+AND B T
+AND C T
+AND D T
+NOT T T
+AND T J
+RUN
