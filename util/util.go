@@ -114,6 +114,22 @@ func Max(a int64, b int64) int64 {
 	}
 }
 
+func MinInt(a int, b int) int {
+	if a < b {
+		return a
+	} else {
+		return b
+	}
+}
+
+func MaxInt(a int, b int) int {
+	if a > b {
+		return a
+	} else {
+		return b
+	}
+}
+
 func Lcm(a int64, b int64) int64 {
 	return (a / Gcd(a, b)) * b
 }
