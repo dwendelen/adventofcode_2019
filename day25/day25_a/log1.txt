@@ -1,0 +1,1229 @@
+GOROOT=/home/xtrit/sdk/go1.13.4 #gosetup
+GOPATH=null #gosetup
+/home/xtrit/sdk/go1.13.4/bin/go build -o /tmp/___go_build_day25_a_go /home/xtrit/adventofcode_2019/day25/day25_a/day25_a.go #gosetup
+/tmp/___go_build_day25_a_go #gosetup
+
+
+
+== Hull Breach ==
+You got in through a hole in the floor here. To keep your ship from also freezing, the hole has been sealed.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+north
+
+
+
+== Hallway ==
+This area has been optimized for something; you're just not quite sure what.
+
+Doors here lead:
+- east
+- south
+
+Command?
+east
+
+
+
+== Warp Drive Maintenance ==
+It appears to be working normally.
+
+Doors here lead:
+- west
+
+Command?
+west
+
+
+
+== Hallway ==
+This area has been optimized for something; you're just not quite sure what.
+
+Doors here lead:
+- east
+- south
+
+Command?
+south
+
+
+
+== Hull Breach ==
+You got in through a hole in the floor here. To keep your ship from also freezing, the hole has been sealed.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+west
+
+
+
+== Corridor ==
+The metal walls and the metal floor are slightly different colors. Or are they?
+
+Doors here lead:
+- east
+
+Items here:
+- giant electromagnet
+
+Command?
+east
+
+
+
+== Hull Breach ==
+You got in through a hole in the floor here. To keep your ship from also freezing, the hole has been sealed.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+south
+
+
+
+== Sick Bay ==
+Supports both Red-Nosed Reindeer medicine and regular reindeer medicine.
+
+Doors here lead:
+- north
+- south
+- west
+
+Items here:
+- space law space brochure
+
+Command?
+south
+
+
+
+== Gift Wrapping Center ==
+How else do you wrap presents on the go?
+
+Doors here lead:
+- north
+- south
+- west
+
+Items here:
+- mouse
+
+Command?
+take mouse
+
+You take the mouse.
+
+Command?
+south
+
+
+
+== Passages ==
+They're a little twisty and starting to look all alike.
+
+Doors here lead:
+- north
+- south
+- west
+
+Items here:
+- astrolabe
+
+Command?
+take astrolabe
+
+You take the astrolabe.
+
+Command?
+south
+
+
+
+== Crew Quarters ==
+The beds are all too small for you.
+
+Doors here lead:
+- north
+
+Items here:
+- mug
+
+Command?
+take mug
+
+You take the mug.
+
+Command?
+north
+
+
+
+== Passages ==
+They're a little twisty and starting to look all alike.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+west
+
+
+
+== Holodeck ==
+Someone seems to have left it on the Giant Grid setting.
+
+Doors here lead:
+- east
+
+Items here:
+- escape pod
+
+Command?
+east
+
+
+
+== Passages ==
+They're a little twisty and starting to look all alike.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+north
+
+
+
+== Gift Wrapping Center ==
+How else do you wrap presents on the go?
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+west
+
+
+
+== Storage ==
+The boxes just contain more boxes.  Recursively.
+
+Doors here lead:
+- north
+- east
+- west
+
+Command?
+west
+
+
+
+== Hot Chocolate Fountain ==
+Somehow, it's still working.
+
+Doors here lead:
+- east
+
+Items here:
+- molten lava
+
+Command?
+east
+
+
+
+== Storage ==
+The boxes just contain more boxes.  Recursively.
+
+Doors here lead:
+- north
+- east
+- west
+
+Command?
+north
+
+
+
+== Engineering ==
+You see a whiteboard with plans for Springdroid v2.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+north
+
+
+
+== Arcade ==
+None of the cabinets seem to have power.
+
+Doors here lead:
+- south
+
+Items here:
+- wreath
+
+Command?
+take wreath
+
+You take the wreath.
+
+Command?
+south
+
+
+
+== Engineering ==
+You see a whiteboard with plans for Springdroid v2.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+west
+
+
+
+== Navigation ==
+Status: Stranded. Please supply measurements from fifty stars to recalibrate.
+
+Doors here lead:
+- east
+
+Items here:
+- infinite loop
+
+Command?
+east
+
+
+
+== Engineering ==
+You see a whiteboard with plans for Springdroid v2.
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+south
+
+
+
+== Storage ==
+The boxes just contain more boxes.  Recursively.
+
+Doors here lead:
+- north
+- east
+- west
+
+Command?
+east
+
+
+
+== Gift Wrapping Center ==
+How else do you wrap presents on the go?
+
+Doors here lead:
+- north
+- south
+- west
+
+Command?
+north
+
+
+
+== Sick Bay ==
+Supports both Red-Nosed Reindeer medicine and regular reindeer medicine.
+
+Doors here lead:
+- north
+- south
+- west
+
+Items here:
+- space law space brochure
+
+Command?
+take space law space brochure
+
+You take the space law space brochure.
+
+Command?
+west
+
+
+
+== Science Lab ==
+You see evidence here of prototype polymer design work.
+
+Doors here lead:
+- north
+- east
+- west
+
+Items here:
+- sand
+
+Command?
+take sand
+
+You take the sand.
+
+Command?
+north
+
+
+
+== Stables ==
+Reindeer-sized. They're all empty.
+
+Doors here lead:
+- south
+- west
+
+Items here:
+- manifold
+
+Command?
+take manifold
+
+You take the manifold.
+
+Command?
+west
+
+
+
+== Observatory ==
+There are a few telescopes; they're all bolted down, though.
+
+Doors here lead:
+- east
+
+Items here:
+- photons
+
+Command?
+east
+
+
+
+== Stables ==
+Reindeer-sized. They're all empty.
+
+Doors here lead:
+- south
+- west
+
+Command?
+south
+
+
+
+== Science Lab ==
+You see evidence here of prototype polymer design work.
+
+Doors here lead:
+- north
+- east
+- west
+
+Command?
+west
+
+
+
+== Kitchen ==
+Everything's freeze-dried.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+
+Command?
+take monolith
+
+You take the monolith.
+
+Command?
+west
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Command?
+inv
+
+Items in your inventory:
+- monolith
+- wreath
+- mug
+- astrolabe
+- manifold
+- sand
+- mouse
+- space law space brochure
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Command?
+drop manifold
+
+You drop the manifold.
+
+Command?
+drop wreath
+
+You drop the wreath.
+
+Command?
+drop sand
+
+You drop the sand.
+
+Command?
+drop mug
+
+You drop the mug.
+
+Command?
+drop astrolabe
+
+You drop the astrolabe.
+
+Command?
+drop mouse
+
+You drop the mouse.
+
+Command?
+drop space law space brochure
+
+You drop the space law space brochure.
+
+Command?
+inv
+
+Items in your inventory:
+- monolith
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- wreath
+- mug
+- astrolabe
+- manifold
+- sand
+- mouse
+- space law space brochure
+
+Command?
+drop monolith
+
+You drop the monolith.
+
+Command?
+drop bla
+
+You don't have that item.
+
+Command?
+take manifold
+
+You take the manifold.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- wreath
+- mug
+- astrolabe
+- sand
+- mouse
+- space law space brochure
+
+Command?
+drop manifold
+
+You drop the manifold.
+
+Command?
+take wreath
+
+You take the wreath.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- mug
+- astrolabe
+- manifold
+- sand
+- mouse
+- space law space brochure
+
+Command?
+drop wreath
+
+You drop the wreath.
+
+Command?
+take sand
+
+You take the sand.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- wreath
+- mug
+- astrolabe
+- manifold
+- mouse
+- space law space brochure
+
+Command?
+drop sand
+
+You drop the sand.
+
+Command?
+take mug
+
+You take the mug.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- wreath
+- astrolabe
+- manifold
+- sand
+- mouse
+- space law space brochure
+
+Command?
+drop mug
+
+You drop the mug.
+
+Command?
+take astrolabe
+
+You take the astrolabe.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- wreath
+- mug
+- manifold
+- sand
+- mouse
+- space law space brochure
+
+Command?
+drop astrolabe
+
+You drop the astrolabe.
+
+Command?
+take mouse
+
+You take the mouse.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- wreath
+- mug
+- astrolabe
+- manifold
+- sand
+- space law space brochure
+
+Command?
+drop mouse
+
+You drop the mouse.
+
+Command?
+take space law space brochure
+
+You take the space law space brochure.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- wreath
+- mug
+- astrolabe
+- manifold
+- sand
+- mouse
+
+Command?
+take mouse
+
+You take the mouse.
+
+Command?
+take astrolabe
+
+You take the astrolabe.
+
+Command?
+take mug
+
+You take the mug.
+
+Command?
+take sand
+
+You take the sand.
+
+Command?
+take wreath
+
+You take the wreath.
+
+Command?
+take manifold
+
+You take the manifold.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+
+Command?
+drop manifold
+
+You drop the manifold.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- manifold
+
+Command?
+take manifold
+
+You take the manifold.
+
+Command?
+drop astrolabe
+
+You drop the astrolabe.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- astrolabe
+
+Command?
+take astrolabe
+
+You take the astrolabe.
+
+Command?
+drop manifold
+
+You drop the manifold.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- manifold
+
+Command?
+take manifold
+
+You take the manifold.
+
+Command?
+drop mouse
+
+You drop the mouse.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- mouse
+
+Command?
+take mouse
+
+You take the mouse.
+
+Command?
+drop mug
+
+You drop the mug.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- mug
+
+Command?
+take mug
+
+You take the mug.
+
+Command?
+drop sand
+
+You drop the sand.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- sand
+
+Command?
+take sand
+
+You take the sand.
+
+Command?
+drop space law space brochure
+
+You drop the space law space brochure.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- space law space brochure
+
+Command?
+take space law space brochure
+
+You take the space law space brochure.
+
+Command?
+drop wreath
+
+You drop the wreath.
+
+Command?
+west
+
+
+
+== Pressure-Sensitive Floor ==
+Analyzing...
+
+Doors here lead:
+- east
+
+A loud, robotic voice says "Alert! Droids on this ship are lighter than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+== Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+Doors here lead:
+- east
+- west
+
+Items here:
+- monolith
+- wreath
+
+Command?

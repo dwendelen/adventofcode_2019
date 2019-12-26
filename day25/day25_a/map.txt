@@ -1,0 +1,121 @@
+1 == Hull Breach ==
+You got in through a hole in the floor here. To keep your ship from also freezing, the hole has been sealed.
+
+2 == Hallway ==
+This area has been optimized for something; you're just not quite sure what.
+
+3 == Warp Drive Maintenance ==
+It appears to be working normally
+
+4 == Corridor ==
+The metal walls and the metal floor are slightly different colors. Or are they?
+- giant electromagnet -> bad
+
+5 == Sick Bay ==
+Supports both Red-Nosed Reindeer medicine and regular reindeer medicine.
+- space law space brochure
+
+6 == Gift Wrapping Center ==
+How else do you wrap presents on the go?
+- mouse
+
+7 == Passages ==
+They're a little twisty and starting to look all alike.
+- astrolabe
+
+8 == Crew Quarters ==
+The beds are all too small for you.
+- mug
+
+9 == Holodeck ==
+Someone seems to have left it on the Giant Grid setting.
+- escape pod -> bad
+
+a == Storage ==
+The boxes just contain more boxes.  Recursively.
+
+b ==  Science Lab ==
+You see evidence here of prototype polymer design work.
+- sand
+
+c == Hot Chocolate Fountain ==
+Somehow, it's still working.
+- molten lava -> bad
+
+d == Engineering ==
+You see a whiteboard with plans for Springdroid v2.
+
+e == Arcade ==
+None of the cabinets seem to have power.
+- wreath
+
+f == Navigation ==
+Status: Stranded. Please supply measurements from fifty stars to recalibrate.
+- infinite loop -> bad
+
+g == Stables ==
+Reindeer-sized. They're all empty.
+- manifold
+
+h == Observatory ==
+There are a few telescopes; they're all bolted down, though.
+- photons -> bad
+
+i == Kitchen ==
+Everything's freeze-dried
+- monolith
+
+j == Security Checkpoint ==
+In the next room, a pressure-sensitive floor will verify your identity.
+
+k == Pressure-Sensitive Floor ==
+Analyzing...
+A loud, robotic voice says "Alert! Droids on this ship are heavier than the detected value!" and you are ejected back to the checkpoint.
+
+
+
+
+                   2 - 3
+                   |
+               4 - 1
+                   |
+           h - g   |
+               |   |
+   k - j - i - b - 5
+                   |
+               e   |
+               |   |
+           f - d   |
+               |   |
+           c - a - 6
+                   |
+               9 - 7
+                   |
+                   8
+
+items
+
+X =
+- astrolabe
+- manifold
+- mouse
+- mug
+- sand
+- space law space brochure
+- wreath
+
+monolith = heavy
+X = heavy
+X - astrolabe = light
+X - manifold = heavy
+X - mouse = heavy
+X - mug = light
+X - sand = heavy
+X - brochure = heavy
+X - wreath = heavy
+
+
+
+
+--- too heavy by itself
+- monolith
